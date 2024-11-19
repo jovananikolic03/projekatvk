@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="sr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kontakt - Jobraids Salon za pletenice</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+     <header>
+        
+        <nav>
+            <ul>
+                <li><a href="../jobraids/index.html">Početna</a></li>
+                <li><a href="../jobraids/galerija.html">Galerija</a></li>
+                <li><a href="../jobraids/kontakt.html">Kontakt</a></li>
+            </ul>
+        </nav>
+        
+                <img src="../jobraids/jologo.jpg" alt="logo" class="logo" />
+        
+            </header>
+
+    <section id="kontakt-section">
+        <div class="container">
+            <h2>Kontaktirajte nas</h2>
+            <p>Ukoliko imate pitanja ili želite da zakažete termin, slobodno nas kontaktirajte koristeći formu ispod.</p>
+
+            
+            <form action="mailto:kontakt@jobraids.com" method="POST" enctype="text/plain">
+                <div class="form-group">
+                    <label for="name">Ime i prezime:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="message">Poruka:</label>
+                    <textarea id="message" name="message" rows="4" required></textarea>
+                </div>
+                
+                <button type="submit" class="btn">Pošaljite poruku</button>
+            </form>
+
+           
+            <div class="contact-info">
+                <h3>Naše kontakt informacije</h3>
+                <p><strong>Email:</strong> <a href="mailto:kontakt@jobraids.com">kontakt@jobraids.com</a></p>
+                <p><strong>Instagram:</strong> <a href="jobraids.ns">jobraids.ns</a></p>
+            </div>
+        </div>
+    </section>
+
+    
+    <footer>
+        <p>© 2024 Jobraids | Sva prava zadržana</p>
+    </footer>
+
+</body>
+</html>
